@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="New.css">
+        <!-- css link -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body> 
+    <!-- Navbarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+    <nav class="navbar navbar-expand-lg py-3  sticky-top navbar-light bg-white">
+        <div class="container-fluid">
+           
+            <a class="navbar-brand   " href="#">Dani</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--  ms-auto margin start auto to move links on the right side -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#price">pricing</a>
+                    </li>
+                 
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#team">team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact us</a>
+                    </li>
+                    <button class="btn btn-primary">Join us</button>
+                    <div class="mx-2">
+                        <button class="btn btn-primary"        data-bs-toggle="modal" data-bs-target="#signupModal">Sign up</button> 
+                 <button class="btn btn-danger"        data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+
+            </div>
+        </div>
+    </nav> <!--Navbar ends up here-->
+
+    <!--Adding hero section here-->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+  <div class="container">
+    <div class="row">
+        <!-- mx-auto make content center -->
+        <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4 text-white">Build reboust landing page now</h1>
+            <p class="text-white my-3  ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                 for previewing layouts and visual mockups.</p>
+                 <!-- adding button -->
+                 <button class="btn me-2 btn-primary">Get Started</button>
+                 <button class="btn btn-outline-light">My portfolio</button>
+        </div>
+    </div>
+  </div>
+
+<!-- same 
+<div class="container">
+    <h1 class="display-4">Build reboust landing page now</h1>
+</div> -->
+
+
+
+
+    </div>  <!--Hero section ended here-->
+  
+    <!--  services section started from here -->
+    <section id="services">
+        <div class="container">
+            <!-- we give margin bottom for space -->
+              <div class="row mb-5">
+                <!-- adding column -->
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Why to choose us</h6>
+                 <h1>Our services</h1>
+                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                    for previewing layouts and visual mockups</p>
+                </div>
+              </div>
+              <!-- creating another row -->
+              <!-- g stand for cutter spaces and it makes the spaces -->
+              <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                            <!-- heart -->
+                            <box-icon name='heart' ></box-icon>
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+                <!-- 2nd div -->
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                            <!-- home-heart -->
+                            <box-icon name='home-heart' type='solid' ></box-icon>
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+                <!-- 3rd div -->
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                            <!-- heart -->
+                            <box-icon name='happy-heart-eyes' type='solid' ></box-icon> 
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+                <!-- 4th div -->
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                          <!-- heart -->
+                          <box-icon name='heart' ></box-icon>
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+                <!-- 5th div -->
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                            <!-- rocket -->
+                            <box-icon name='rocket' ></box-icon>
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+                <!-- 6th div -->
+                <div class="col-lg-4 col-sm-6">
+                    <!-- applying card effect -->
+                     <div class="service card-effect">
+                        <div class="iconbox">
+                            <!-- doughnut-chart icon -->
+                            <box-icon name='doughnut-chart'></box-icon>
+                          </div>
+                          <h5> Service</h5> 
+                          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                             for previewing layouts and visual mockups</p>
+                     </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+
+      <!-- features section -->
+      
+      <section  class="row w-100 bg-light py-0" id="features">
+        <!-- 1 column for image and 1 column for content -->
+   <div class="col-lg-6 col-img"></div>
+   <!-- space between text and section py-5 means padding -->
+   <div class="col-lg-6 py-5 ">
+    <!-- container -->
+       <div class="container">
+   <div class="row">
+    <!-- this will cover 10 column space in medium devices -->
+    <!-- push  1 column from left side -->
+      <div class="col-md-10 offset-md-1">
+        <h6 class="text-primary">Why to choose us</h6>
+        <h1> Best solution for our services</h1> 
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+           for previewing layouts and visual mockups</p>
+
+
+           <!-- feature icons -->
+            <!-- applying card effect -->
+             <div class="feature d-flex mt-40">
+                <div class="iconbox me-3" >
+                    <!-- home-heart -->
+                    <box-icon name='rocket' ></box-icon>
+                  </div>
+                <div class="container">
+                    <h5> Features</h5> 
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                       for previewing layouts and visual mockups</p>
+               </div>
+                </div>
+
+                <!-- 2nd -->
+                <div class="feature d-flex mt-40">
+                    <div class="iconbox me-3" >
+                        <!-- home-heart -->
+                        <box-icon name='home-heart' type='solid' ></box-icon>
+                      </div>
+                    <div class="container">
+                        <h5> Features</h5> 
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                           for previewing layouts and visual mockups</p>
+                   </div>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="feature d-flex mt-40">
+                        <div class="iconbox me-3" >
+                            <!-- home-heart -->
+                            <box-icon name='heart' ></box-icon>
+                          </div>
+                        <div class="container">
+                            <h5> Features</h5> 
+                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                               for previewing layouts and visual mockups</p>
+                       </div>
+                        </div>
+           
+      </div>
+   </div>
+       </div>
+      </section>
+
+<!-- 
+   portfoliooooooooooooooooooooooooooo sectionnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+      <section id="portfolio">
+        <div class="container-fluid">
+            <!-- we give margin bottom for space -->
+              <div class="row mb-5 ">
+                <!-- adding column -->
+                <div class="  col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Project</h6>
+                 <h1>Our Recent work </h1>
+                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                    for previewing layouts and visual mockups</p>
+                </div>
+              </div>
+
+                </div>
+              </div>
+              <!-- creating the icon -->
+              <!-- gutter width for spaces -->
+              <div class="row g-4">
+                <!-- 1st -->
+                <div class="col-lg-4 col-sm-6">
+               <div class="project">
+                <img src="/coding.webp" alt="">
+                <div class="overlay">
+                    <div>
+                        <h4 class="text-white">project title</h4>
+                    <h6 class="text-white">Website Design</h6>
+                    </div>
+                </div>
+               </div>
+                </div>
+                <!-- 2ndddddddddddddddddddddddddddd -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                     <img src="codingggggggggggggggggg.webp" alt=""  height="275px">
+                     <div class="overlay">
+                         <div>
+                             <h4 class="text-white">project title</h4>
+                         <h6 class="text-white">Website Design</h6>
+                         </div>
+                     </div>
+                    </div>
+                     </div>
+                     <!-- 3rddddddddddddddddddddddddd -->
+                     <div class="col-lg-4 col-sm-6">
+                        <div class="project">
+                         <img src="/coding4.webp" alt="" height="275px">
+                         <div class="overlay">
+                             <div>
+                                 <h4 class="text-white">project title</h4>
+                             <h6 class="text-white">Website Design</h6>
+                             </div>
+                         </div>
+                        </div>
+                         </div>
+
+                         <!-- 4thhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+                         <div class="col-lg-4 col-sm-6">
+                            <div class="project">
+                             <img src="/coding1.webp" alt="" height="275px">
+                             <div class="overlay">
+                                 <div>
+                                     <h4 class="text-white">project title</h4>
+                                 <h6 class="text-white">Website Design</h6>
+                                 </div>
+                             </div>
+                            </div>
+                             </div>
+
+                             <!-- 5thhhhhhhhhhhhhhhhhhhhhhhhh -->
+                             <div class="col-lg-4 col-sm-6">
+                                <div class="project">
+                                 <img src="/coding2.webp" alt="" height="275px">
+                                 <div class="overlay">
+                                     <div>
+                                         <h4 class="text-white">project title</h4>
+                                     <h6 class="text-white">Website Design</h6>
+                                     </div>
+                                 </div>
+                                </div>
+                                 </div>
+
+                                 <!-- 6thhhhhhhhhhhhhhhhhhh -->
+                                 <div class="col-lg-4 col-sm-6">
+                                    <div class="project">
+                                     <img src="/coding 3.webp" alt="" height="275px" >
+                                     <div class="overlay">
+                                         <div>
+                                             <h4 class="text-white">project title</h4>
+                                         <h6 class="text-white">Website Design</h6>
+                                         </div>
+                                     </div>
+                                    </div>
+                                     </div>
+              </div>
+        </div>
+    </section>
+
+
+
+    <!-- pricinggggggggggggggggggggggggggg sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+    <section id="price" class="bg-light">
+        <div class="container ">
+            <!-- we give margin bottom for space -->
+              <div class="row mb-5" >
+                <!-- adding column -->
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Pricing </h6>
+                 <h1>Our Fair & simple pricing </h1>
+                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                    for previewing layouts and visual mockups</p>
+             
+                </div>
+              </div>
+              <!-- Services boxes -->
+              <div class="row">
+                <!-- now column -->
+                <div class="col-lg-3 col-sm-6">
+                    <!-- now pricing -->
+                    <div class="pricing card-effect ">
+                        <h6>Pricing</h6>
+                        <h1>$200</h1>
+                        <hr>
+                        <!-- ul -->
+                        <!-- margin bottom mb-4 -->
+                        <ul class="list-unstyled mb-4">
+                            <!-- to remove bullets we use list un-styled -->
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Premium Support</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>30+ web master tools </li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Drag and drop tools</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>eCommerce  $tore</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Website Logins</li>
+                        </ul>
+                        <button class=" btn btn-primary"> Get started</button>
+                    </div>
+                </div>
+                <!-- 2ndddddddddddddddddddddddddddddddddddddddddd -->
+                <div class="col-lg-3 col-sm-6">
+                    <!-- now pricing --> 
+                    <div class="pricing card-effect ">
+                        <h6>Pricing</h6>
+                        <h1>$2300</h1>
+                        <hr>
+                        <!-- ul -->
+                        <!-- margin bottom mb-4 -->
+                        <ul class="list-unstyled mb-4">
+                            <!-- to remove bullets we use list un-styled -->
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Premium Support</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>30+ web master tools </li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Drag and drop tools</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>eCommerce  $tore</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Website Logins</li>
+                        </ul>
+                        <button class=" btn btn-primary"> Get started</button>
+                    </div>
+                </div>
+                <!-- 3rddddddddddddddddddddddddddddddddddddddddddddddddd -->
+                <div class="col-lg-3 col-sm-6">
+                    <!-- now pricing -->
+                    <div class="pricing card-effect ">
+                        <h6>Pricing</h6>
+                        <h1>$2008</h1>
+                        <hr>
+                        <!-- ul -->
+                        <!-- margin bottom mb-4 -->
+                        <ul class="list-unstyled mb-4">
+                            <!-- to remove bullets we use list un-styled -->
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Premium Support</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>30+ web master tools </li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Drag and drop tools</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>eCommerce  $tore</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Website Logins</li>
+                        </ul>
+                        <button class=" btn btn-primary"> Get started</button>
+                    </div>
+                </div>
+                <!-- 4thhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+                <div class="col-lg-3 col-sm-6">
+                    <!-- now pricing -->
+                    <div class="pricing card-effect ">
+                        <h6>Pricing</h6>
+                        <h1>$1990</h1>
+                        <hr>
+                        <!-- ul -->
+                        <!-- margin bottom mb-4 -->
+                        <ul class="list-unstyled mb-4">
+                            <!-- to remove bullets we use list un-styled -->
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Premium Support</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>30+ web master tools </li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Drag and drop tools</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>eCommerce  $tore</li>
+                            
+                            <li><box-icon type='solid' name='check-circle'></box-icon>Website Logins</li>
+                        </ul>
+                        <button class=" btn btn-primary"> Get started</button>
+                    </div>
+                </div>
+
+              </div>
+        </div>
+    </section>
+
+
+
+
+<!-- teammmmmmmmmmmmmmmmmmmmmmmmmmm sectionnnnnnnnnnnnnnnnnnn Designnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+
+<section id="team" class="bg-light">
+    <div class="container ">
+        <!-- we give margin bottom for space -->
+          <div class="row mb-5" >
+            <!-- adding column -->
+            <div class="col-md-8 mx-auto text-center">
+                <h6 class="text-primary">Crew </h6>
+             <h1>Meet my crew team</h1>
+             
+             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                for previewing layouts and visual mockups</p>
+         
+            </div>
+          </div>
+           <!-- now we have create a row -->
+           <div class="row text-center">
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+                <img src="/WhatsApp Image 2022-12-29 at 11.11.09 PM.jpeg" alt="">
+                <h5 class="mb-0 mt-4">Danial Ashraf</h5>
+                <p> Front-end Developer</p>
+<!-- now we create social icons -->
+                        <div class="social-icon">
+                            <a href="#" ><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></box-icon></a>
+                            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></box-icon></a>
+                
+                        </div>
+            </div>
+  
+          </div>
+          <!-- 2ndddddddddddddddddddddddddddddddddddddddddd -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+                <img src="/ahsun.jpeg" alt="">
+                <h5 class="mb-0 mt-4">Ahsun</h5>
+                <p> Graphic Designer</p>
+<!-- now we create social icons -->
+                        <div class="social-icon">
+                            <a href="#" ><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></box-icon></a>
+                            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></box-icon></a>
+                
+                        </div>
+            </div>
+  
+          </div>
+          <!-- 3rddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+                <img src="/lala.jpeg" alt="">
+                <h5 class="mb-0 mt-4">Zubair Afridi</h5>
+                <p> Java Developer</p>
+<!-- now we create social icons -->
+                        <div class="social-icon">
+                            <a href="#" ><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></box-icon></a>
+                            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></box-icon></a>
+                
+                        </div>
+            </div>
+  
+          </div>
+          <!-- 4thhhhhhhhhhhhhhhhhhhhhhhhhhhhhh -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member card-effect">
+                <img src="/bhutto.jpeg" alt="">
+                <h5 class="mb-0 mt-4">Awais Bhutto</h5>
+                <p> Mobile Application Developer</p>
+<!-- now we create social icons -->
+                        <div class="social-icon">
+                            <a href="#" ><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                            <a href="#"><box-icon name='twitter' type='logo' ></box-icon></box-icon></a>
+                            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></box-icon></a>
+                
+                        </div>
+            </div>
+  
+          </div>
+           </div>
+
+  
+                
+                  
+
+          </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Designnnnnnnnnnnnnnnnnnnnnnn Blogggggggggggggggggggggggg Sectionnnnnnnnnnnnnnnnnnnnnnn -->
+
+    <section id="blog" class="bg-light">
+        <div class="container ">
+            <!-- we give margin bottom for space -->
+              <div class="row mb-5" >
+                <!-- adding column -->
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-primary">Blog </h6>
+                 <h1>Latest news from the blog</h1>
+                 
+                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                    for previewing layouts and visual mockups</p>
+             
+                </div>
+              </div>
+              <!-- Creating a row -->
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="/coding.webp" alt="">
+                        <h5 class="mt-4"><a href="#">Lorem ipsum is placeholder text commonly used in the graphic</a></h5>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphicLorem ipsum is placeholder text commonly used in the graphic</p>
+                    </div>
+
+                </div>
+                <!-- 2nddddddddddddddddddddddd carddddddddddddddddddd -->
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="/coding 3.webp" alt="" height="200px">
+                        <h5 class="mt-4"><a href="#">Lorem ipsum is placeholder text commonly used in the graphic</a></h5>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphicLorem ipsum is placeholder text commonly used in the graphic</p>
+                    </div>
+
+                </div>
+                <!-- 3rdddddddddddddddddddddddddddd cardddddddddddddddddddddddddddddd -->
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="/coding2.webp" alt="" height="200px">
+                        <h5 class="mt-4"><a href="#">Lorem ipsum is placeholder text commonly used in the graphic</a></h5>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphicLorem ipsum is placeholder text commonly used in the graphic</p>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+              </section>
+
+              <!-- Designnnnnnnnnnnnnnnnn Contactttttttttttttttttt Sectionnnnnnnnnnnnnnnnnnn -->
+  
+              <section id="contact" class="bg-light">
+                <div class="container ">
+                    <!-- we give margin bottom for space -->
+                      <div class="row mb-5" >
+                        <!-- adding column -->
+                        <div class="col-md-8 mx-auto text-center">
+                            <h6 class="text-primary">Contact </h6>
+                         <h1>Get in Touch</h1>
+                         
+                         <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                            for previewing layouts and visual mockups</p>
+                     
+                        </div>
+                      </div>
+                      <form action="" class="row g-3 justify-content-center" >
+                        <div class="col-md-5">
+                            <input type="text "class="form-control" placeholder="Full Name">
+                         </div>
+                         <div class="col-md-5">
+                            <input type="text "class="form-control" placeholder="Enter E-mail">
+                         </div>
+                         <div class="col-md-10">
+                            <input type="text "class="form-control" placeholder="Enter Subject">
+                         </div>
+                         <div class="col-md-10">
+                           <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder=" Enter message"></textarea>
+                         </div>
+                         <div class="col-md-10 d-grid ">
+                           <button class="btn btn-primary">Contact</button>
+                          </div>
+                      </form>
+                    
+                     
+                      </div>
+                    </div>
+                      </section>
+                 
+                      <!-- Designnnnnnnnnnnnnnnnnnnnnnnn footerrrrrrrrrrrrrrrrr sectionnnnnnnnnnnnnnnnnn -->
+
+
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <img src="" alt="">
+                </div>
+                <div class="col-md-2">
+                 <h5 class="text-white">Brand</h5>
+                 <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                 </ul>
+                 
+              
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-white">More</h5>
+                    <ul class="list-unstyled">
+                       <li><a href="#">FAQ's</a></li>
+                       <li><a href="#">Privacy & Policy</a></li>
+                       <li><a href="#">Warranty</a></li>
+                       <li><a href="#">Shipment</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                     <h5 class="text-white">Pages</h5>
+                 <ul class="list-unstyled">
+                    <li><a href="#">House no#C-518</a></li>
+                    <li><a href="#">E-mail Danialashraf240@gmail.com/a></li>
+                    <li><a href="#">Phone no:03337002568</a></li>
+                    <li><a href="#">Web Developer</a></li>
+                 </ul> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer part -->
+    <div class="footer-bottom py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @ copyright to all reserved
+                </div>
+                <div class="col-md-6">
+                    <a href="#" ><box-icon type='logo' name='facebook-circle'></box-icon></a>
+                    <a href="#"><box-icon name='twitter' type='logo' ></box-icon></box-icon></a>
+                    <a href="#"><box-icon name='instagram' type='logo' ></box-icon></box-icon></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- modale -->
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!--  Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">login to dani-coder</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- login -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+       
+      <!-- animationnnnnnnnnnnnnnnn inputtttttttttttttttttt -->
+   
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
